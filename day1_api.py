@@ -1,21 +1,21 @@
 import requests
 
-url = "https://restcountries.com/v3.1/name/kenya"
+url = "https://jsonplaceholder.typicode.com/users"
 
 response = requests.get(url)
 
 if response.status_code == 200:
     data = response.json()
-    country = data[0]
+    user = data[0] 
 
-    name = country["name"]["common"]
-    capital = country["capital"][0]
-    population = country["population"]
-    currency = list(country["currencies"].keys())[0]
+    name = user['name']
+    profession = user['company']['name']
+    email = user['email']
+    city = user['address']['city']
 
-    print(f"Country: {name}")
-    print(f"Capital: {capital}")
-    print(f"Population: {population:,}")
-    print(f"Currency: {currency}")
-else:
-    print("Request failed. Status:", response.status_code)
+print()
+print("==== Employee Data ====")
+print(f"Name  : {name}")
+print(f"Profession: {profession}")
+print(f"Email : {email}")
+print(f"City  : {city}")
