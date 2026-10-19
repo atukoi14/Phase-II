@@ -1,0 +1,109 @@
+{
+  "weather": {
+    "coord": {
+      "lon": 32.5822,
+      "lat": 0.3163
+    },
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "broken clouds",
+        "icon": "04d"
+      }
+    ],
+    "base": "stations",
+    "main": {
+      "temp": 21.7,
+      "feels_like": 22.09,
+      "temp_min": 21.7,
+      "temp_max": 21.7,
+      "pressure": 1015,
+      "humidity": 83,
+      "sea_level": 1015,
+      "grnd_level": 884
+    },
+    "visibility": 7015,
+    "wind": {
+      "speed": 0.43,
+      "deg": 330,
+      "gust": 0.72
+    },
+    "clouds": {
+      "all": 67
+    },
+    "dt": 1792388718,
+    "sys": {
+      "country": "UG",
+      "sunrise": 1792380682,
+      "sunset": 1792424260
+    },
+    "timezone": 10800,
+    "id": 232422,
+    "name": "Kampala",
+    "cod": 200
+  },
+  "country": {
+    "area": 241550,
+    "cioc": "UGA",
+    "flag": "\ud83c\uddfa\ud83c\uddec",
+    "gini": 42.8,
+    "name": "Uganda",
+    "flags": {
+      "png": "https://flagcdn.com/w320/ug.png",
+      "svg": "https://flagcdn.com/ug.svg"
+    },
+    "latlng": [
+      1,
+      32
+    ],
+    "region": "Africa",
+    "borders": [
+      "COD",
+      "KEN",
+      "RWA",
+      "SSD",
+      "TZA"
+    ],
+    "capital": "Kampala",
+    "demonym": "Ugandan",
+    "languages": [
+      {
+        "name": "English",
+        "iso639_1": "en",
+        "iso639_2": "eng",
+        "nativeName": "English"
+      },
+      {
+        "name": "Swahili",
+        "iso639_1": "sw",
+        "iso639_2": "swa",
+        "nativeName": "Kiswahili"
+      }
+    ],
+    "subregion": "Eastern Africa",
+    "timezones": [
+      "UTC+03:00"
+    ],
+    "alpha2Code": "UG",
+    "alpha3Code": "UGA",
+    "currencies": [
+      {
+        "code": "UGX",
+        "name": "Ugandan shilling",
+        "symbol": "Sh"
+      }
+    ],
+    "nativeName": "Uganda",
+    "population": 45741000,
+    "independent": true,
+    "numericCode": "800",
+    "callingCodes": [
+      "256"
+    ],
+    "topLevelDomain": [
+      ".ug"
+    ],
+    "populationDensity": 189.36
+  }
+}
